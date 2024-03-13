@@ -1,4 +1,4 @@
-const apiKey = "YOUR_API_KEY";
+const apiKey = import.meta.env.VITE_APIKEY;
 const options = {
   method: "GET",
 };
